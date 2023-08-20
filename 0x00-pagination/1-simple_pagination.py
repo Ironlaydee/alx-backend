@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-""A function that defines class Server that paginates a database of popular baby names
+"""A function that defines class Server that paginates a database of popular baby names
 """
-
 import csv
-import math
-from typing import List
+from typing import List, Tuple
 
-index_range = __import__('0-simple_helper_function').index_range
+
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
+    """Retrieves the index range from a given page and page size.
+    """
+    start = (page - 1) * page_size
+    end = start + page_size
+    return (start, end)
 
 
 class Server:
@@ -15,7 +19,8 @@ class Server:
     DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
-        ''' Initialize instance. '''
+        """Initializes a new Server instance.
+        """
         self.__dataset = None
 
     def dataset(self) -> List[List]:
@@ -30,15 +35,12 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
-        ''' Output page of dataset. '''
-        assert isinstance(page, int) and isinstance(page_size, int)
+        """Retrieves a page of data.
+        """
+        assert type(page) == int and type(page_size) == int
         assert page > 0 and page_size > 0
-
-        indices = index_range(page, page_size)
-        start = indices[0]
-        end = indices[1]
-
-        try:
-            return self.dataset()[start:end]
-        except IndexError:
+        start, end = index_range(page, page_size)
+        data = self.dataset()
+        if start > len(data):
             return []
+        return data[start:end]
