@@ -1,15 +1,15 @@
 # French translations for PROJECT.
 # Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# Adedolapo Adefaye <daintiestdolly@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-08-29 22:26+0000\n"
-"PO-Revision-Date: 2023-08-29 22:30+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Report-Msgid-Bugs-To: daintiestdolly@gmail.com\n"
+"POT-Creation-Date: 2023-08-29 23:23+01\n"
+"PO-Revision-Date: 2023-08-29 22:30+01\n"
+"Last-Translator: Adedolapo Adefaye <daintiestdolly@gmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
