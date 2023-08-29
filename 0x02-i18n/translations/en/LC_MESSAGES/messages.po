@@ -1,15 +1,15 @@
 # English translations for PROJECT.
 # Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# Adedolapo Adefaye <daintiestdolly@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Report-Msgid-Bugs-To: daintiestdolly@gmail.com\n"
 "POT-Creation-Date: 2023-08-29 22:26+0000\n"
 "PO-Revision-Date: 2023-08-29 22:29+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Adedolapo Adefaye <daintiestdolly@gmail.com>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
