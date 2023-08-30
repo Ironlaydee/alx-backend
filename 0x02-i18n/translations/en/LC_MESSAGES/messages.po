@@ -21,24 +21,24 @@ msgstr ""
 #: templates/3-index.html:6 templates/4-index.html:7 templates/5-index.html:7
 #: templates/6-index.html:7 templates/7-index.html:7 templates/index.html:7
 msgid "home_title"
-msgstr ""
+msgstr "Welcome to Holberton"
 
 #: templates/3-index.html:9 templates/4-index.html:10 templates/5-index.html:10
 #: templates/6-index.html:10 templates/7-index.html:10 templates/index.html:10
 msgid "home_header"
-msgstr ""
+msgstr "Hello World!"
 
 #: templates/5-index.html:12 templates/6-index.html:12
 #: templates/7-index.html:12 templates/index.html:12
 msgid "logged_in_as"
-msgstr ""
+msgstr "Dollar"
 
 #: templates/5-index.html:14 templates/6-index.html:14
 #: templates/7-index.html:14 templates/index.html:14
 msgid "not_logged_in"
-msgstr ""
+msgstr "Visit http://127.0.0.1:5000/"
 
 #: templates/index.html:16
 msgid "current_time_is"
-msgstr ""
+msgstr "22:29"
 
