@@ -31,14 +31,14 @@ msgstr "Hello World!"
 #: templates/5-index.html:12 templates/6-index.html:12
 #: templates/7-index.html:12 templates/index.html:12
 msgid "logged_in_as"
-msgstr "Dollar"
+msgstr "You are logged in as Dollar."
 
 #: templates/5-index.html:14 templates/6-index.html:14
 #: templates/7-index.html:14 templates/index.html:14
 msgid "not_logged_in"
-msgstr "Visit http://127.0.0.1:5000/"
+msgstr "You are not logged in."
 
 #: templates/index.html:16
 msgid "current_time_is"
-msgstr "22:29"
+msgstr "The current time is Aug, 29, 2023 11:29:50 PM."
 
